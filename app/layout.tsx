@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="dark" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet" />
